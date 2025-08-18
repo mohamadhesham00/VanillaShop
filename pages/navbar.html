@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container">
+    <!-- 1. Toggler on far-left -->
+    <button
+      class="navbar-toggler me-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Logo next to toggler -->
+    <a class="navbar-brand bold-text me-3" href="#">SHOP.CO</a>
+
+    <!-- Icons (desktop) -->
+    <div class="d-flex align-items-start ms-auto ms-0 ms-lg-3 order-lg-4">
+      <a href="#" class="me-3"><i class="bi bi-cart fs-4 icons"></i></a>
+      <div class="dropdown">
+        <a
+          class="btn btn-secondary dropdown-toggle bg-transparent border-0 m-0 p-0"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="bi bi-person-circle fs-4 icons"></i>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">View profile</a></li>
+          <li><a class="dropdown-item" href="#">Log out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Middle content (collapsible) -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Search bar FIRST inside toggler -->
+      <form class="d-flex flex-grow-1 mb-3 mb-lg-0 order-0 order-lg-3">
+        <div class="input-group">
+          <input
+            class="form-control rounded-pill bg-body-secondary"
+            type="search"
+            placeholder="Search for products..."
+            aria-label="Search"
+          />
+        </div>
+      </form>
+
+      <!-- Menu items -->
+      <ul class="navbar-nav mx-3 order-lg-1">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+          >
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">On Sale</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">New Arrivals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Brands</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --bs-bold-font-family: "Integral CF", sans-serif;
+  --bs-body-font-family: "Satoshi", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-family: var(--bs-bold-font-family);
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+.bold-text {
+  font-family: var(--bs-bold-font-family);
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.body-text {
+  font-family: var(--bs-body-font-family);
+  font-size: 1rem;
+}
+
+.w-40 {
+  width: 40%;
+}
+.w-85 {
+  width: 85%;
+}
+
+.icons {
+  color: black;
+}
