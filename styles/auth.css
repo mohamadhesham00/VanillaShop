@@ -1,0 +1,63 @@
+/* auth.css */
+.tab-buttons button {
+  z-index: 1; /* ensures text is above the slider */
+  position: relative;
+  width: 50%;
+  border: none;
+}
+
+.tab-buttons button.active {
+  /* background-color: #000; */
+  color: white;
+}
+
+.tab-content {
+  min-height: 360px; /* 👈 makes both forms same height */
+
+  display: none;
+  padding: 30px;
+  border: 1px solid #000;
+  border-top: none;
+  background-color: white;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 0 5px rgba(144, 144, 144, 0.5);
+}
+
+.tab-content.active {
+  display: block;
+  background-color: #000;
+  color: #ddd;
+  button {
+    color: black;
+    background-color: #fff;
+  }
+}
+
+form input {
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+
+.tab-buttons {
+  height: 50px;
+  position: relative;
+}
+
+.tab-buttons button.active {
+  color: white; /* text color for active tab */
+}
+
+.active-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* start under first button */
+  height: 100%;
+  background-color: #000; /* active background */
+  border-radius: 25px 25px 0px 0px;
+  transition: left 0.3s ease;
+}
+
+label {
+  color: red;
+}
