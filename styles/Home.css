@@ -2,7 +2,7 @@ a.nav-link {
   color: black;
 }
 .dropdown-menu {
-  display: none; /* hidden by default */
+  display: none;
   position: absolute;
   background: white;
   border: 1px solid #ccc;
@@ -22,4 +22,157 @@ a.nav-link {
 }
 .brands-icons {
   height: 15vh;
+}
+
+/* Full-page loading overlay */
+#page-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Spinner circle */
+#page-loading .spinner {
+  border: 5px solid #f3f3f3; /* Light gray */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+/* Spin animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+  margin: 20px auto; /* Add margin for better spacing */
+}
+
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 16px); /* Adjusted for consistent gap */
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 10px; /* Add padding for inner spacing */
+  background: transparent; /* Remove rebeccapurple for cleaner look */
+  min-height: 400px; /* Set consistent height */
+  align-items: center;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel .card {
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+  min-height: 350px; /* Consistent card height */
+}
+
+.carousel .card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card .img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Space between image and card body */
+}
+
+.card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff; /* Slightly thinner border */
+}
+
+.card .card-body {
+  text-align: center;
+  width: 100%;
+}
+
+.card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card .card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card .btn {
+  width: 100%;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 12px);
+    min-height: 350px; /* Adjust height for smaller screens */
+  }
+  .carousel .card {
+    min-height: 300px; /* Slightly smaller cards */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+    min-height: 300px;
+  }
+  .carousel .card {
+    min-height: 280px;
+  }
 }

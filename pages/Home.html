@@ -27,7 +27,12 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-white">
+      <!-- Loading Spinner Overlay -->
+      <div id="page-loading">
+        <div class="spinner"></div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-white w-100">
         <div class="container">
           <!-- 1. Toggler on far-left -->
           <button
@@ -107,7 +112,7 @@
         </div>
       </nav>
     </header>
-    <section class="hero m-auto bg-hero-custom d-flex pt-5">
+    <section class="hero m-auto bg-hero-custom d-flex mx-auto pt-5 w-100">
       <div class="container">
         <div class="row align-items-center">
           <!-- Left column: text -->
@@ -121,18 +126,18 @@
             <button class="btn btn-dark rounded-pill px-5 py-2">
               Shop Now
             </button>
-            <div class="container mt-5">
+            <div class="container mt-5 stats-div d-none">
               <div class="row text-center text-lg-start">
                 <div class="col-6 col-lg-4 mb-4">
-                  <h3>200+</h3>
+                  <h3 class="stats">200+</h3>
                   <p>International Brands</p>
                 </div>
                 <div class="col-6 col-lg-4 mb-4">
-                  <h3>2000+</h3>
+                  <h3 class="stats">2000+</h3>
                   <p>High-Quality Products</p>
                 </div>
                 <div class="col-6 col-lg-4 mb-lg-4 mx-auto">
-                  <h3>30000+</h3>
+                  <h3 class="stats">30000+</h3>
                   <p class="mb-0">Happy Customers</p>
                 </div>
               </div>
@@ -150,7 +155,9 @@
         </div>
       </div>
     </section>
-    <section class="row justify-content-center bg-black text-white p-4">
+    <section
+      class="row justify-content-center mx-auto bg-black text-white p-4 w-100"
+    >
       <svg
         class="brands-icons col-4 col-lg-2"
         role="img"
@@ -213,17 +220,16 @@
         />
       </svg>
     </section>
-    <section class="new-arrivals">
+    <section class="new-arrivals row justify-content-center p-4 w-100">
       <h2 class="bold-text my-5 text-center mx-auto">NEW ARRIVALS</h2>
-      <div
-        class="row justify-content-center gap-5 cards"
-        id="new-arrivals-cards"
-      >
-        <!-- JS will inject cards here -->
+      <div class="wrapper">
+        <ul class="carousel">
+          <!-- js will inject here -->
+        </ul>
       </div>
     </section>
     <footer
-      class="newsletter row justify-content-around bg-black rounded-3 p-4 mt-4"
+      class="newsletter row justify-content-around bg-black rounded-3 p-4 mt-4 mx-auto w-100"
     >
       <div class="col-12 col-lg-5">
         <h3 class="text-white">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
@@ -240,6 +246,6 @@
         </button>
       </div>
     </footer>
-    <script type="module" src="../JS/main.js"></script>
+    <script type="module" src="../JS/Home.js"></script>
   </body>
 </html>
