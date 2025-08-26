@@ -1,0 +1,19 @@
+.filter-option {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+/* Hide desktop sidebar on small screens */
+@media (max-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+  .mobile-filters {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .mobile-filters {
+    display: none;
+  }
+}
