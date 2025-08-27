@@ -1,3 +1,7 @@
+label {
+  color: red;
+  display: block;
+}
 .filter-option {
   display: block;
   margin: 5px 0;

@@ -1,0 +1,54 @@
+.product-details-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-title {
+  font-family: var(--bs-bold-font-family);
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  font-family: var(--bs-bold-font-family);
+  font-size: 1.8rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.thumb-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.thumb-img:hover {
+  border-color: #000;
+}
+
+#quantity {
+  max-width: 60px;
+}
+
+.btn-dark {
+  background-color: #000;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  border-color: #000 #000 #fff;
+}
+.review-card:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
