@@ -1,0 +1,77 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cart-item {
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 1rem 1rem;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.cart-item:hover {
+  background-color: #e9ecef;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #333;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.quantity-control button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 0.2rem 0.6rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+#empty-cart-message {
+  color: #888;
+}
