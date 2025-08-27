@@ -26,12 +26,11 @@
     <link rel="stylesheet" href="../styles/Home.css" />
   </head>
   <body>
+    <!-- Loading Spinner Overlay -->
+    <div id="page-loading">
+      <div class="spinner"></div>
+    </div>
     <header>
-      <!-- Loading Spinner Overlay -->
-      <div id="page-loading">
-        <div class="spinner"></div>
-      </div>
-
       <nav class="navbar navbar-expand-lg bg-white w-100">
         <div class="container">
           <!-- 1. Toggler on far-left -->
@@ -63,7 +62,7 @@
                 <i class="bi bi-person-circle fs-4 icons"></i>
               </a>
 
-              <ul class="dropdown-menu dropdown-menu-end" id="dropdownMenu">
+              <ul class="dropdown-menu" id="dropdownMenu">
                 <li>
                   <a class="dropdown-item view-profile-btn" href="#"
                     >View profile</a
@@ -85,10 +84,12 @@
           <!-- Middle content (collapsible) -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <!-- Search bar FIRST inside toggler -->
-            <form class="d-flex flex-grow-1 mb-3 mb-lg-0 order-0 order-lg-3">
+            <form
+              class="search-form d-flex flex-grow-1 mb-3 mb-lg-0 order-0 order-lg-3"
+            >
               <div class="input-group">
                 <input
-                  class="form-control rounded-pill bg-body-secondary"
+                  class="search-input form-control rounded-pill bg-body-secondary"
                   type="search"
                   placeholder="Search for products..."
                   aria-label="Search"
@@ -123,7 +124,10 @@
               designed to bring out your individuality and cater to your sense
               of style.
             </p>
-            <button class="btn btn-dark rounded-pill px-5 py-2">
+            <button
+              class="btn btn-dark rounded-pill px-5 py-2"
+              onclick="window.location.href='Products.html'"
+            >
               Shop Now
             </button>
             <div class="container mt-5 stats-div d-none">

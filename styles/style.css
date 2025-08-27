@@ -86,3 +86,33 @@ h3 {
     transform: rotate(360deg);
   }
 }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: -3px;
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.dropdown-menu.show {
+  display: block; /* visible when toggled */
+}
+/* By default, collapse is hidden on small screens */
+#navbarNav {
+  display: none;
+}
+
+#navbarNav.show {
+  display: block;
+}
+
+/* On large screens, always show */
+@media (min-width: 992px) {
+  #navbarNav {
+    display: flex !important;
+  }
+}

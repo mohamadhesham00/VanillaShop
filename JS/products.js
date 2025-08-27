@@ -1,4 +1,10 @@
-import { init, products } from "./main.js";
+import {
+  init,
+  products,
+  getQueryParam,
+  searchForm,
+  searchInput,
+} from "./main.js";
 let productContainer = document.getElementsByClassName("product-container")[0];
 let categoriesFilterList = document.getElementsByClassName(
   "category-filter-list"
@@ -7,10 +13,27 @@ let priceRange = document.getElementsByClassName("price-range")[0];
 let startPriceSpan = document.getElementsByClassName("start-price")[0];
 let endPriceSpan = document.getElementsByClassName("end-price")[0];
 let filterBtn = document.getElementsByClassName("filter-btn")[0];
+let clearBtn = document.getElementsByClassName("clear-btn")[0];
 window.onload = async () => {
   try {
     await init();
-    loadProducts();
+    searchForm.onsubmit = (e) => {
+      e.preventDefault();
+      applyFiltering();
+    };
+    searchInput.oninput = (e) => {
+      applyFiltering();
+    };
+
+    const searchTerm = getQueryParam("name");
+
+    if (searchTerm) {
+      let filtered = filterByName(searchTerm);
+      loadProducts(filtered);
+    } else {
+      loadProducts();
+    }
+
     let categories = loadProductCategories();
     categories.forEach((category) => {
       let box = `<label class="filter-option"
@@ -28,19 +51,16 @@ window.onload = async () => {
   } finally {
   }
 };
+
 priceRange.addEventListener("change", function () {
   endPriceSpan.innerHTML = priceRange.value;
 });
 
 filterBtn.addEventListener("click", () => {
-  let filtered = products;
-  const checkedBoxes = document.querySelectorAll(
-    'input[name="category"]:checked'
-  );
-  if (checkedBoxes.length)
-    filtered = filterByCategory([...checkedBoxes].map((box) => box.value));
-  filtered = filterByPrice(priceRange.value, filtered);
-  loadProducts(filtered);
+  applyFiltering();
+});
+clearBtn.addEventListener("click", () => {
+  clearAllFilters();
 });
 
 function loadProducts(filtered = products) {
@@ -49,7 +69,7 @@ function loadProducts(filtered = products) {
     const card = `
   <div class="col-6 col-md-4 col-lg-3">
     <div class="card h-100 shadow-sm border-0">
-      <img src="${product.images[0]}" class="card-img-top img-fluid product-img" alt="${product.title}" data-id="${product.id}" />
+      <img src="${product.thumbnail}" class="card-img-top img-fluid product-img" alt="${product.title}" data-id="${product.id}" />
       <div class="card-body d-flex flex-column">
         <h6 class="card-title">${product.title}</h6>
         <p class="card-text mb-2 fw-bold">$${product.price}</p>
@@ -68,7 +88,6 @@ function loadProducts(filtered = products) {
     let interval;
     let product = products.find((product) => product.id == img.dataset.id);
     img.addEventListener("mouseover", () => {
-      console.log("entered");
       let i = 0;
       interval = setInterval(() => {
         img.src = product.images[i++];
@@ -99,4 +118,34 @@ function filterByCategory(categories, filtered = products) {
 }
 function filterByPrice(maxPrice, filtered = products) {
   return filtered.filter((product) => product.price <= maxPrice);
+}
+function filterByName(name, filtered = products) {
+  return filtered.filter((product) => product.title.includes(name));
+}
+function applyFiltering() {
+  let filtered = products;
+  let query = searchInput.value.trim();
+  filtered = filterByName(query, filtered);
+  const checkedBoxes = document.querySelectorAll(
+    'input[name="category"]:checked'
+  );
+  if (checkedBoxes.length)
+    filtered = filterByCategory(
+      [...checkedBoxes].map((box) => box.value),
+      filtered
+    );
+  filtered = filterByPrice(priceRange.value, filtered);
+  loadProducts(filtered);
+}
+function clearAllFilters() {
+  searchInput.value = "";
+  const checkedBoxes = document.querySelectorAll(
+    'input[name="category"]:checked'
+  );
+  if (checkedBoxes.length)
+    [...checkedBoxes].forEach((box) => (box.checked = false));
+  priceRange.value = getMaxPrice();
+  endPriceSpan.innerHTML = "$" + getMaxPrice();
+  if (document.querySelectorAll(".card").length != products.length)
+    loadProducts();
 }

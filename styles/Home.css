@@ -1,19 +1,7 @@
 a.nav-link {
   color: black;
 }
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background: white;
-  border: 1px solid #ccc;
-  list-style: none;
-  padding: 0.5rem;
-  margin: 0;
-}
 
-.dropdown-menu.show {
-  display: block; /* visible when toggled */
-}
 .bg-hero-custom {
   background-color: #f2f0f1;
 }
