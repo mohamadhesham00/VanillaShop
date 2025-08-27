@@ -110,6 +110,13 @@
     </header>
     <main class="container-fluid w-85">
       <div class="row">
+        <!-- Mobile toggle button -->
+        <div class="d-lg-none text-end p-2">
+          <button class="btn btn-outline-dark" id="filterToggleBtn">
+            <i class="bi bi-funnel"></i> Filters
+          </button>
+        </div>
+
         <!-- Sidebar (Desktop) -->
         <aside class="col-lg-3 pt-3 ps-4 sidebar sticky-top">
           <h4>Filters</h4>
@@ -135,7 +142,7 @@
         </aside>
 
         <!-- Products -->
-        <main class="col-lg-9 ps-4">
+        <main class="col-lg-9 mt-3 ps-4">
           <div class="row g-3 product-container">
             <!-- JS Will inject products here -->
           </div>

@@ -14,6 +14,9 @@ let startPriceSpan = document.getElementsByClassName("start-price")[0];
 let endPriceSpan = document.getElementsByClassName("end-price")[0];
 let filterBtn = document.getElementsByClassName("filter-btn")[0];
 let clearBtn = document.getElementsByClassName("clear-btn")[0];
+const sidebar = document.querySelector(".sidebar");
+const toggleBtn = document.getElementById("filterToggleBtn");
+
 window.onload = async () => {
   try {
     await init();
@@ -52,6 +55,20 @@ window.onload = async () => {
   }
 };
 
+toggleBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("show");
+});
+
+// Close sidebar when clicking outside
+document.addEventListener("click", (e) => {
+  if (
+    sidebar.classList.contains("show") &&
+    !sidebar.contains(e.target) &&
+    e.target !== toggleBtn
+  ) {
+    sidebar.classList.remove("show");
+  }
+});
 priceRange.addEventListener("change", function () {
   endPriceSpan.innerHTML = priceRange.value;
 });
