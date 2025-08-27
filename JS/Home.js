@@ -70,7 +70,7 @@ async function loadNewArrivals() {
 
     img.addEventListener("mouseout", () => {
       clearInterval(interval);
-      img.src = product.images[0];
+      img.src = product.thumbnail;
     });
   });
 
