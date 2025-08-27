@@ -34,12 +34,7 @@
       <nav class="navbar navbar-expand-lg bg-white w-100">
         <div class="container">
           <!-- 1. Toggler on far-left -->
-          <button
-            class="navbar-toggler me-2"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
+          <button class="navbar-toggler me-2" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -51,7 +46,9 @@
           <div
             class="d-flex align-items-start ms-auto ms-0 ms-lg-3 order-lg-4 d-none authenticated"
           >
-            <a href="#" class="me-3"><i class="bi bi-cart fs-4 icons"></i></a>
+            <a href="cart.html" class="me-3"
+              ><i class="bi bi-cart fs-4 icons"></i
+            ></a>
             <div class="dropdown">
               <a
                 class="btn dropdown-toggle bg-transparent border-0 m-0 p-0"
@@ -76,7 +73,9 @@
           </div>
           <!-- Icons (guest) -->
           <div class="d-flex align-items-start ms-auto ms-0 ms-lg-3 order-lg-4">
-            <a href="#" class="me-3 text-decoration-none guest login-btn"
+            <a
+              href="#"
+              class="me-3 text-black text-decoration-none guest login-btn"
               >Login</a
             >
           </div>
@@ -99,9 +98,6 @@
 
             <!-- Menu items -->
             <ul class="navbar-nav mx-3 order-lg-1">
-              <li class="nav-item">
-                <a class="nav-link" href="#">On Sale</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#new-arrivals">New Arrivals</a>
               </li>
@@ -234,7 +230,7 @@
         </ul>
       </div>
     </section>
-    <footer
+    <section
       class="newsletter row justify-content-around bg-black rounded-3 p-4 mt-4 mx-auto w-100"
     >
       <div class="col-12 col-lg-5">
@@ -251,7 +247,13 @@
           Subscribe to Newsletter
         </button>
       </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center p-4 mt-5">
+      &copy; 2025 SHOP.CO | All rights reserved
     </footer>
+    <button id="scrollTopBtn" title="Go to top">&#x2191;</button>
     <script type="module" src="../JS/Home.js"></script>
   </body>
 </html>
