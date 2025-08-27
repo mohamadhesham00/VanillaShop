@@ -1,4 +1,5 @@
 import { addItemToCart } from "./cart.js";
+import { isAuthenticated } from "./cookies.js";
 import { init, products } from "./main.js";
 const productInfo = document.getElementsByClassName("product-info")[0];
 const reviewsSection = document.getElementsByClassName("reviews-section")[0];
@@ -103,6 +104,11 @@ window.onload = async () => {
     const quantityInput = document.getElementById("quantity");
     const addToCartBtn = document.getElementById("addToCartBtn");
 
+    if (!isAuthenticated()) {
+      console.log("User not authenticated");
+      addToCartBtn.disabled = true;
+      addToCartBtn.innerText = "Login to Add to Cart";
+    }
     // Quantity buttons
     increaseBtn.addEventListener("click", () => {
       quantityInput.value = parseInt(quantityInput.value) + 1;
@@ -112,6 +118,10 @@ window.onload = async () => {
     });
     // Add to Cart
     addToCartBtn.addEventListener("click", (e) => {
+      // Only authenticated users can add to cart
+      if (!isAuthenticated) {
+        return;
+      }
       let productId = Number(e.target.dataset.id);
       let product = products.find((product) => product.id === productId);
       let quantity = parseInt(
