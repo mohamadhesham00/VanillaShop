@@ -4,6 +4,7 @@ import {
   getQueryParam,
   searchForm,
   searchInput,
+  attachEventOnProductCard,
 } from "./main.js";
 let productContainer = document.getElementsByClassName("product-container")[0];
 let categoriesFilterList = document.getElementsByClassName(
@@ -39,7 +40,7 @@ window.onload = async () => {
 
     let categories = loadProductCategories();
     categories.forEach((category) => {
-      let box = `<label class="filter-option"
+      let box = `<label class="filter-option d-block"
       ><input type="checkbox" name="category" value = "${category}" /> ${category}</label
       >`;
       categoriesFilterList.innerHTML += box;
@@ -86,12 +87,12 @@ function loadProducts(filtered = products) {
     const card = `
   <div class="col-6 col-md-4 col-lg-3">
     <div class="card h-100 shadow-sm border-0">
-      <img src="${product.thumbnail}" class="card-img-top img-fluid product-img" alt="${product.title}" data-id="${product.id}" />
+      <img src="${product.thumbnail}" class="card-img-top img-fluid product-img" alt="${product.title}"  />
       <div class="card-body d-flex flex-column">
         <h6 class="card-title">${product.title}</h6>
         <p class="card-text mb-2 fw-bold">$${product.price}</p>
         <div class="mt-auto">
-          <a href="#" class="btn btn-dark rounded-pill w-100">See Details</a>
+          <a href="#" class="btn btn-dark rounded-pill w-100 view-details" data-id="${product.id}">See Details</a>
         </div>
       </div>
     </div>
@@ -99,24 +100,8 @@ function loadProducts(filtered = products) {
 `;
     productContainer.innerHTML += card;
   });
-  // Initialize image hover effects after cards are added
-  const images = document.querySelectorAll(".product-img");
-  images.forEach((img) => {
-    let interval;
-    let product = products.find((product) => product.id == img.dataset.id);
-    img.addEventListener("mouseover", () => {
-      let i = 0;
-      interval = setInterval(() => {
-        img.src = product.images[i++];
-        i = i % product.images.length;
-      }, 850);
-    });
-
-    img.addEventListener("mouseout", () => {
-      clearInterval(interval);
-      img.src = product.images[0];
-    });
-  });
+  // Attach event listeners to new cards
+  attachEventOnProductCard();
 }
 
 function loadProductCategories() {

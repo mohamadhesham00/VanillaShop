@@ -1,4 +1,4 @@
-import { init, products } from "./main.js";
+import { attachEventOnProductCard, init, products } from "./main.js";
 const stats = document.getElementsByClassName("stats");
 const carousel = document.querySelector(".carousel");
 const wrapper = document.querySelector(".wrapper");
@@ -48,31 +48,14 @@ async function loadNewArrivals() {
         <div class="card-body">
           <h5 class="card-title">${product.title}</h5>
           <p class="card-text">$${product.price}</p>
-          <a href="#" class="btn btn-primary bg-black rounded-pill">See Details</a>
+          <a href="#" class="btn btn-primary bg-black rounded-pill view-details" data-id="${product.id}">See Details</a>
         </div>
       </div>
     `;
     carousel.innerHTML += card;
   });
-
-  // Initialize image hover effects after cards are added
-  const images = document.querySelectorAll(".product-img");
-  images.forEach((img) => {
-    let interval;
-    let product = products.find((product) => product.id == img.dataset.id);
-    img.addEventListener("mouseover", () => {
-      let i = 0;
-      interval = setInterval(() => {
-        img.src = product.images[i++];
-        i = i % product.images.length;
-      }, 850);
-    });
-
-    img.addEventListener("mouseout", () => {
-      clearInterval(interval);
-      img.src = product.thumbnail;
-    });
-  });
+  // Attach event listeners to new cards
+  attachEventOnProductCard();
 
   // Initialize autoplay after cards are loaded
   initializeCarousel();
