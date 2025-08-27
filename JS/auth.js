@@ -1,7 +1,12 @@
 import { addCookie, getCookie, isAuthenticated } from "./cookies.js";
+import { init } from "./main.js";
 
 // redirect to home in case of it already signed in
-window.onload = () => redirectToHome();
+window.onload = async () => {
+  await init();
+  redirectToHome();
+};
+
 // const vars
 const users = [];
 const loginForm = document.querySelector(".login-form");
