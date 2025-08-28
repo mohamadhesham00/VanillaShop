@@ -71,7 +71,8 @@ a.nav-link {
   transform: translateY(-5px); /* Lift effect on hover */
 }
 
-.card .img {
+/* .card .img {
+  padding: 10px;
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -79,7 +80,7 @@ a.nav-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px; /* Space between image and card body */
+  margin-bottom: 10px;
 }
 
 .card .img img {
@@ -87,7 +88,7 @@ a.nav-link {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #fff; /* Slightly thinner border */
+  border: 3px solid #fff;
 }
 
 .card .card-body {
@@ -109,7 +110,7 @@ a.nav-link {
   width: 100%;
   padding: 8px;
   font-size: 0.9rem;
-}
+} */
 
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
