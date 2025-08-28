@@ -534,126 +534,6 @@
     "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/thumbnail.webp"
   },
   {
-    "id": 84,
-    "title": "Gigabyte Aorus Men Tshirt",
-    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
-    "category": "mens-shirts",
-    "price": 24.99,
-    "discountPercentage": 0.94,
-    "rating": 3.18,
-    "stock": 90,
-    "tags": ["clothing", "men's t-shirts"],
-    "brand": "Gigabyte",
-    "sku": "MEN-GIG-GIG-084",
-    "weight": 4,
-    "dimensions": {
-      "width": 22.31,
-      "height": 26.47,
-      "depth": 13.27
-    },
-    "warrantyInformation": "3 year warranty",
-    "shippingInformation": "Ships overnight",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent quality!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Amelia Perez",
-        "reviewerEmail": "amelia.perez@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Tyler Davis",
-        "reviewerEmail": "tyler.davis@x.dummyjson.com"
-      },
-      {
-        "rating": 1,
-        "comment": "Disappointing product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Harper King",
-        "reviewerEmail": "harper.king@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 16,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "1654388837068",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp"
-  },
-  {
-    "id": 85,
-    "title": "Man Plaid Shirt",
-    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
-    "category": "mens-shirts",
-    "price": 34.99,
-    "discountPercentage": 19.5,
-    "rating": 3.46,
-    "stock": 82,
-    "tags": ["clothing", "men's shirts"],
-    "brand": "Classic Wear",
-    "sku": "MEN-CLA-PLA-085",
-    "weight": 3,
-    "dimensions": {
-      "width": 9.34,
-      "height": 5.97,
-      "depth": 10.85
-    },
-    "warrantyInformation": "1 week warranty",
-    "shippingInformation": "Ships in 1-2 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 3,
-        "comment": "Disappointing product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Aubrey Wagner",
-        "reviewerEmail": "aubrey.wagner@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Evan Reed",
-        "reviewerEmail": "evan.reed@x.dummyjson.com"
-      },
-      {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "date": "2025-04-30T09:41:02.053Z",
-        "reviewerName": "Evelyn Gonzalez",
-        "reviewerEmail": "evelyn.gonzalez@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "7 days return policy",
-    "minimumOrderQuantity": 13,
-    "meta": {
-      "createdAt": "2025-04-30T09:41:02.053Z",
-      "updatedAt": "2025-04-30T09:41:02.053Z",
-      "barcode": "2821496314023",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp"
-  },
-  {
     "id": 86,
     "title": "Man Short Sleeve Shirt",
     "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
@@ -772,5 +652,1956 @@
       "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp"
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp"
+  },
+  {
+    "id": 121,
+    "title": "iPhone 5s",
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "category": "smartphones",
+    "price": 199.99,
+    "discountPercentage": 12.91,
+    "rating": 2.83,
+    "stock": 25,
+    "tags": ["smartphones", "apple"],
+    "brand": "Apple",
+    "sku": "SMA-APP-IPH-121",
+    "weight": 2,
+    "dimensions": {
+      "width": 5.29,
+      "height": 18.38,
+      "depth": 17.72
+    },
+    "warrantyInformation": "Lifetime warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Jace Smith",
+        "reviewerEmail": "jace.smith@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Logan Torres",
+        "reviewerEmail": "logan.torres@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Harper Kelly",
+        "reviewerEmail": "harper.kelly@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "8814683940853",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
+  },
+  {
+    "id": 122,
+    "title": "iPhone 6",
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "category": "smartphones",
+    "price": 299.99,
+    "discountPercentage": 6.69,
+    "rating": 3.41,
+    "stock": 60,
+    "tags": ["smartphones", "apple"],
+    "brand": "Apple",
+    "sku": "SMA-APP-IPH-122",
+    "weight": 7,
+    "dimensions": {
+      "width": 11,
+      "height": 9.1,
+      "depth": 9.67
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Stella Morris",
+        "reviewerEmail": "stella.morris@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Benjamin Foster",
+        "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "9922357685013",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
+  },
+  {
+    "id": 124,
+    "title": "iPhone X",
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "category": "smartphones",
+    "price": 899.99,
+    "discountPercentage": 19.59,
+    "rating": 2.51,
+    "stock": 37,
+    "tags": ["smartphones", "apple"],
+    "brand": "Apple",
+    "sku": "SMA-APP-IPH-124",
+    "weight": 1,
+    "dimensions": {
+      "width": 21.88,
+      "height": 24.19,
+      "depth": 14.19
+    },
+    "warrantyInformation": "3 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Tyler Davis",
+        "reviewerEmail": "tyler.davis@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Aria Parker",
+        "reviewerEmail": "aria.parker@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lily Torres",
+        "reviewerEmail": "lily.torres@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "3034949322264",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
+  },
+  {
+    "id": 125,
+    "title": "Oppo A57",
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "category": "smartphones",
+    "price": 249.99,
+    "discountPercentage": 2.43,
+    "rating": 3.94,
+    "stock": 19,
+    "tags": ["smartphones", "oppo"],
+    "brand": "Oppo",
+    "sku": "SMA-OPP-OPP-125",
+    "weight": 5,
+    "dimensions": {
+      "width": 7.2,
+      "height": 10.74,
+      "depth": 23.68
+    },
+    "warrantyInformation": "Lifetime warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Jacob Cooper",
+        "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Poor quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Zoe Nicholson",
+        "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "0651223722522",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
+  },
+  {
+    "id": 126,
+    "title": "Oppo F19 Pro Plus",
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "category": "smartphones",
+    "price": 399.99,
+    "discountPercentage": 18.64,
+    "rating": 3.51,
+    "stock": 78,
+    "tags": ["smartphones", "oppo"],
+    "brand": "Oppo",
+    "sku": "SMA-OPP-OPP-126",
+    "weight": 6,
+    "dimensions": {
+      "width": 6.78,
+      "height": 25.17,
+      "depth": 8.4
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Emily Johnson",
+        "reviewerEmail": "emily.johnson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Jaxon Barnes",
+        "reviewerEmail": "jaxon.barnes@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Nova Cooper",
+        "reviewerEmail": "nova.cooper@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "8576893968169",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
+  },
+  {
+    "id": 127,
+    "title": "Oppo K1",
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "category": "smartphones",
+    "price": 299.99,
+    "discountPercentage": 18.29,
+    "rating": 4.25,
+    "stock": 55,
+    "tags": ["smartphones", "oppo"],
+    "brand": "Oppo",
+    "sku": "SMA-OPP-OPP-127",
+    "weight": 5,
+    "dimensions": {
+      "width": 13.89,
+      "height": 10.63,
+      "depth": 16.6
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very pleased!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Christopher West",
+        "reviewerEmail": "christopher.west@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Mia Miller",
+        "reviewerEmail": "mia.miller@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very dissatisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ella Adams",
+        "reviewerEmail": "ella.adams@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "3106827888743",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
+  },
+  {
+    "id": 128,
+    "title": "Realme C35",
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "category": "smartphones",
+    "price": 149.99,
+    "discountPercentage": 15.3,
+    "rating": 4.2,
+    "stock": 48,
+    "tags": ["smartphones", "realme"],
+    "brand": "Realme",
+    "sku": "SMA-REA-REA-128",
+    "weight": 2,
+    "dimensions": {
+      "width": 25.28,
+      "height": 8.14,
+      "depth": 29.53
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Great product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Penelope King",
+        "reviewerEmail": "penelope.king@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Asher Scott",
+        "reviewerEmail": "asher.scott@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Henry Adams",
+        "reviewerEmail": "henry.adams@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "7825844344364",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
+  },
+  {
+    "id": 129,
+    "title": "Realme X",
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "category": "smartphones",
+    "price": 299.99,
+    "discountPercentage": 6.95,
+    "rating": 3.7,
+    "stock": 12,
+    "tags": ["smartphones", "realme"],
+    "brand": "Realme",
+    "sku": "SMA-REA-REA-129",
+    "weight": 4,
+    "dimensions": {
+      "width": 25.59,
+      "height": 21.42,
+      "depth": 12.75
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Hazel Evans",
+        "reviewerEmail": "hazel.evans@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Fast shipping!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Brayden Fleming",
+        "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Madison Stewart",
+        "reviewerEmail": "madison.stewart@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4948452391831",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
+  },
+  {
+    "id": 130,
+    "title": "Realme XT",
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "category": "smartphones",
+    "price": 349.99,
+    "discountPercentage": 11.51,
+    "rating": 4.58,
+    "stock": 80,
+    "tags": ["smartphones", "realme"],
+    "brand": "Realme",
+    "sku": "SMA-REA-REA-130",
+    "weight": 3,
+    "dimensions": {
+      "width": 24.98,
+      "height": 26.73,
+      "depth": 6.5
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Emily Brown",
+        "reviewerEmail": "emily.brown@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ella Cook",
+        "reviewerEmail": "ella.cook@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Layla Sullivan",
+        "reviewerEmail": "layla.sullivan@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "6151817227632",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
+  },
+  {
+    "id": 131,
+    "title": "Samsung Galaxy S7",
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "category": "smartphones",
+    "price": 299.99,
+    "discountPercentage": 19.55,
+    "rating": 3.3,
+    "stock": 67,
+    "tags": ["smartphones", "samsung galaxy"],
+    "brand": "Samsung",
+    "sku": "SMA-SAM-SAM-131",
+    "weight": 10,
+    "dimensions": {
+      "width": 13.55,
+      "height": 24.24,
+      "depth": 5.63
+    },
+    "warrantyInformation": "3 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Julian James",
+        "reviewerEmail": "julian.james@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Fast shipping!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lucas Gordon",
+        "reviewerEmail": "lucas.gordon@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ava Taylor",
+        "reviewerEmail": "ava.taylor@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "7557912146622",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
+  },
+  {
+    "id": 132,
+    "title": "Samsung Galaxy S8",
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "category": "smartphones",
+    "price": 499.99,
+    "discountPercentage": 19.45,
+    "rating": 4.4,
+    "stock": 0,
+    "tags": ["smartphones", "samsung galaxy"],
+    "brand": "Samsung",
+    "sku": "SMA-SAM-SAM-132",
+    "weight": 6,
+    "dimensions": {
+      "width": 23.05,
+      "height": 26.88,
+      "depth": 15.73
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "Out of Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Owen Fisher",
+        "reviewerEmail": "owen.fisher@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Clara Berry",
+        "reviewerEmail": "clara.berry@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Tyler Davis",
+        "reviewerEmail": "tyler.davis@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 4,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "5995499013336",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
+  },
+  {
+    "id": 133,
+    "title": "Samsung Galaxy S10",
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "category": "smartphones",
+    "price": 699.99,
+    "discountPercentage": 5.59,
+    "rating": 3.06,
+    "stock": 19,
+    "tags": ["smartphones", "samsung galaxy"],
+    "brand": "Samsung",
+    "sku": "SMA-SAM-SAM-133",
+    "weight": 9,
+    "dimensions": {
+      "width": 27.41,
+      "height": 15.26,
+      "depth": 27.02
+    },
+    "warrantyInformation": "No warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Tristan Scott",
+        "reviewerEmail": "tristan.scott@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Christopher West",
+        "reviewerEmail": "christopher.west@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Would not recommend!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Amelia Perez",
+        "reviewerEmail": "amelia.perez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4676898229465",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
+  },
+  {
+    "id": 134,
+    "title": "Vivo S1",
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "category": "smartphones",
+    "price": 249.99,
+    "discountPercentage": 10.17,
+    "rating": 3.5,
+    "stock": 50,
+    "tags": ["smartphones", "vivo"],
+    "brand": "Vivo",
+    "sku": "SMA-VIV-VIV-134",
+    "weight": 4,
+    "dimensions": {
+      "width": 14.06,
+      "height": 11.79,
+      "depth": 6.78
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Samantha Martinez",
+        "reviewerEmail": "samantha.martinez@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Very disappointed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Logan Lee",
+        "reviewerEmail": "logan.lee@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Sophia Jones",
+        "reviewerEmail": "sophia.jones@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "8575699153333",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
+  },
+  {
+    "id": 135,
+    "title": "Vivo V9",
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "category": "smartphones",
+    "price": 299.99,
+    "discountPercentage": 17.67,
+    "rating": 3.6,
+    "stock": 82,
+    "tags": ["smartphones", "vivo"],
+    "brand": "Vivo",
+    "sku": "SMA-VIV-VIV-135",
+    "weight": 4,
+    "dimensions": {
+      "width": 19.85,
+      "height": 21.83,
+      "depth": 13.04
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Logan Lawson",
+        "reviewerEmail": "logan.lawson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Layla Young",
+        "reviewerEmail": "layla.young@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Asher Scott",
+        "reviewerEmail": "asher.scott@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 2,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4295398764784",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
+  },
+  {
+    "id": 136,
+    "title": "Vivo X21",
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "category": "smartphones",
+    "price": 499.99,
+    "discountPercentage": 17.41,
+    "rating": 4.26,
+    "stock": 7,
+    "tags": ["smartphones", "vivo"],
+    "brand": "Vivo",
+    "sku": "SMA-VIV-VIV-136",
+    "weight": 10,
+    "dimensions": {
+      "width": 22.49,
+      "height": 21.62,
+      "depth": 27.88
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very pleased!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Liam Gonzalez",
+        "reviewerEmail": "liam.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Fast shipping!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Aurora Barnes",
+        "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Evelyn Walker",
+        "reviewerEmail": "evelyn.walker@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "9944308291810",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
+  },
+  {
+    "id": 78,
+    "title": "Apple MacBook Pro 14 Inch Space Grey",
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "category": "laptops",
+    "price": 1999.99,
+    "discountPercentage": 4.69,
+    "rating": 3.65,
+    "stock": 24,
+    "tags": ["laptops", "apple"],
+    "brand": "Apple",
+    "sku": "LAP-APP-APP-078",
+    "weight": 9,
+    "dimensions": {
+      "width": 20.03,
+      "height": 9.54,
+      "depth": 14.82
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Hazel Evans",
+        "reviewerEmail": "hazel.evans@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Christopher West",
+        "reviewerEmail": "christopher.west@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Aubrey Garcia",
+        "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "5275211560367",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
+  },
+  {
+    "id": 79,
+    "title": "Asus Zenbook Pro Dual Screen Laptop",
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "category": "laptops",
+    "price": 1799.99,
+    "discountPercentage": 11.14,
+    "rating": 3.95,
+    "stock": 45,
+    "tags": ["laptops"],
+    "brand": "Asus",
+    "sku": "LAP-ASU-ASU-079",
+    "weight": 9,
+    "dimensions": {
+      "width": 16.6,
+      "height": 11.49,
+      "depth": 10.89
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Michael Johnson",
+        "reviewerEmail": "michael.johnson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Zoe Bennett",
+        "reviewerEmail": "zoe.bennett@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Mila Hernandez",
+        "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "7392988535158",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+  },
+  {
+    "id": 80,
+    "title": "Huawei Matebook X Pro",
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "category": "laptops",
+    "price": 1399.99,
+    "discountPercentage": 9.38,
+    "rating": 4.98,
+    "stock": 75,
+    "tags": ["laptops"],
+    "brand": "Huawei",
+    "sku": "LAP-HUA-HUA-080",
+    "weight": 9,
+    "dimensions": {
+      "width": 18.21,
+      "height": 22.83,
+      "depth": 17.26
+    },
+    "warrantyInformation": "No warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Evan Wright",
+        "reviewerEmail": "evan.wright@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Hunter Gordon",
+        "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Not worth the price!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "William Gonzalez",
+        "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "0592296671061",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
+  },
+  {
+    "id": 81,
+    "title": "Lenovo Yoga 920",
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "category": "laptops",
+    "price": 1099.99,
+    "discountPercentage": 6.55,
+    "rating": 2.86,
+    "stock": 40,
+    "tags": ["laptops"],
+    "brand": "Lenovo",
+    "sku": "LAP-LEN-LEN-081",
+    "weight": 9,
+    "dimensions": {
+      "width": 20.84,
+      "height": 22.68,
+      "depth": 17.39
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Bella Gonzalez",
+        "reviewerEmail": "bella.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Nathan Reed",
+        "reviewerEmail": "nathan.reed@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Hazel Gardner",
+        "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "5506742916764",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
+  },
+  {
+    "id": 82,
+    "title": "New DELL XPS 13 9300 Laptop",
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "category": "laptops",
+    "price": 1499.99,
+    "discountPercentage": 11.89,
+    "rating": 2.67,
+    "stock": 74,
+    "tags": ["laptops"],
+    "brand": "Dell",
+    "sku": "LAP-DEL-DEL-082",
+    "weight": 2,
+    "dimensions": {
+      "width": 13.76,
+      "height": 29,
+      "depth": 21.42
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Poor quality!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Charlotte Lopez",
+        "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Alice Smith",
+        "reviewerEmail": "alice.smith@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.053Z",
+        "reviewerName": "Ava Taylor",
+        "reviewerEmail": "ava.taylor@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.053Z",
+      "updatedAt": "2025-04-30T09:41:02.053Z",
+      "barcode": "5963805976904",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
+  },
+  {
+    "id": 159,
+    "title": "iPad Mini 2021 Starlight",
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "category": "tablets",
+    "price": 499.99,
+    "discountPercentage": 3.64,
+    "rating": 3.18,
+    "stock": 47,
+    "tags": ["electronics", "tablets"],
+    "brand": "Apple",
+    "sku": "TAB-APP-IPA-159",
+    "weight": 5,
+    "dimensions": {
+      "width": 17.03,
+      "height": 5.34,
+      "depth": 29.62
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Eleanor Collins",
+        "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Leo Rivera",
+        "reviewerEmail": "leo.rivera@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Carter Rivera",
+        "reviewerEmail": "carter.rivera@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 3,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "6267995330420",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp"
+  },
+  {
+    "id": 160,
+    "title": "Samsung Galaxy Tab S8 Plus Grey",
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "category": "tablets",
+    "price": 599.99,
+    "discountPercentage": 13.31,
+    "rating": 4.68,
+    "stock": 62,
+    "tags": ["electronics", "tablets"],
+    "brand": "Samsung",
+    "sku": "TAB-SAM-SAM-160",
+    "weight": 1,
+    "dimensions": {
+      "width": 6.11,
+      "height": 25.85,
+      "depth": 26.85
+    },
+    "warrantyInformation": "3 months warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Christopher West",
+        "reviewerEmail": "christopher.west@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Owen Sullivan",
+        "reviewerEmail": "owen.sullivan@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Very disappointed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Aria Roberts",
+        "reviewerEmail": "aria.roberts@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "5021907981204",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp"
+  },
+  {
+    "id": 161,
+    "title": "Samsung Galaxy Tab White",
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "category": "tablets",
+    "price": 349.99,
+    "discountPercentage": 18.2,
+    "rating": 3.72,
+    "stock": 92,
+    "tags": ["electronics", "tablets"],
+    "brand": "Samsung",
+    "sku": "TAB-SAM-SAM-161",
+    "weight": 5,
+    "dimensions": {
+      "width": 15.05,
+      "height": 5.37,
+      "depth": 11.82
+    },
+    "warrantyInformation": "3 months warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 1,
+        "comment": "Waste of money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Max Russell",
+        "reviewerEmail": "max.russell@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Poor quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lincoln Kelly",
+        "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Elena Long",
+        "reviewerEmail": "elena.long@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "3477850755498",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp"
+  },
+  {
+    "id": 172,
+    "title": "Blue Women's Handbag",
+    "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+    "category": "womens-bags",
+    "price": 49.99,
+    "discountPercentage": 17.88,
+    "rating": 2.92,
+    "stock": 76,
+    "tags": ["fashion accessories", "handbags"],
+    "brand": "Fashionista",
+    "sku": "WOM-FAS-BLU-172",
+    "weight": 7,
+    "dimensions": {
+      "width": 14.12,
+      "height": 11.89,
+      "depth": 25.69
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Waste of money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Grace Perry",
+        "reviewerEmail": "grace.perry@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Not worth the price!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Evelyn Sanchez",
+        "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Eli Ward",
+        "reviewerEmail": "eli.ward@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "7 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "0558998280008",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/thumbnail.webp"
+  },
+  {
+    "id": 173,
+    "title": "Heshe Women's Leather Bag",
+    "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+    "category": "womens-bags",
+    "price": 129.99,
+    "discountPercentage": 3.87,
+    "rating": 4.92,
+    "stock": 99,
+    "tags": ["fashion accessories", "leather bags"],
+    "brand": "Heshe",
+    "sku": "WOM-HES-HES-173",
+    "weight": 3,
+    "dimensions": {
+      "width": 28.66,
+      "height": 20.56,
+      "depth": 6.62
+    },
+    "warrantyInformation": "5 year warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Excellent quality!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Hunter Gordon",
+        "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Mason Parker",
+        "reviewerEmail": "mason.parker@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "William Gonzalez",
+        "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4616258239513",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/thumbnail.webp"
+  },
+  {
+    "id": 174,
+    "title": "Prada Women Bag",
+    "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
+    "category": "womens-bags",
+    "price": 599.99,
+    "discountPercentage": 14.09,
+    "rating": 2.71,
+    "stock": 75,
+    "tags": ["fashion accessories", "designer bags"],
+    "brand": "Prada",
+    "sku": "WOM-PRA-PRA-174",
+    "weight": 4,
+    "dimensions": {
+      "width": 21.84,
+      "height": 22.19,
+      "depth": 13.41
+    },
+    "warrantyInformation": "3 year warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Would not buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Caleb Perkins",
+        "reviewerEmail": "caleb.perkins@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Carter Baker",
+        "reviewerEmail": "carter.baker@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lucas Ramirez",
+        "reviewerEmail": "lucas.ramirez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "9614237439330",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/thumbnail.webp"
+  },
+  {
+    "id": 175,
+    "title": "White Faux Leather Backpack",
+    "description": "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. With a sleek white design and ample storage space, it's perfect for both casual and on-the-go styles.",
+    "category": "womens-bags",
+    "price": 39.99,
+    "discountPercentage": 15.2,
+    "rating": 3.36,
+    "stock": 39,
+    "tags": ["fashion accessories", "backpacks"],
+    "brand": "Urban Chic",
+    "sku": "WOM-URB-WHI-175",
+    "weight": 7,
+    "dimensions": {
+      "width": 14.31,
+      "height": 23.29,
+      "depth": 28.91
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Awesome product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Ava Harrison",
+        "reviewerEmail": "ava.harrison@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Liam Garcia",
+        "reviewerEmail": "liam.garcia@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Cameron Perez",
+        "reviewerEmail": "cameron.perez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "90 days return policy",
+    "minimumOrderQuantity": 7,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "8983558170212",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/thumbnail.webp"
+  },
+  {
+    "id": 176,
+    "title": "Women Handbag Black",
+    "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
+    "category": "womens-bags",
+    "price": 59.99,
+    "discountPercentage": 11.63,
+    "rating": 2.89,
+    "stock": 11,
+    "tags": ["fashion accessories", "handbags"],
+    "brand": "Elegance Collection",
+    "sku": "WOM-ELE-WOM-176",
+    "weight": 6,
+    "dimensions": {
+      "width": 29.76,
+      "height": 12.34,
+      "depth": 15.82
+    },
+    "warrantyInformation": "Lifetime warranty",
+    "shippingInformation": "Ships in 1 month",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very pleased!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Natalie Price",
+        "reviewerEmail": "natalie.price@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Emily Johnson",
+        "reviewerEmail": "emily.johnson@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Waste of money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Henry Hill",
+        "reviewerEmail": "henry.hill@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 9,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4283648448769",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/thumbnail.webp"
+  },
+  {
+    "id": 190,
+    "title": "IWC Ingenieur Automatic Steel",
+    "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
+    "category": "womens-watches",
+    "price": 4999.99,
+    "discountPercentage": 9.45,
+    "rating": 2.93,
+    "stock": 90,
+    "tags": ["watches", "luxury watches"],
+    "brand": "IWC",
+    "sku": "WOM-IWC-ING-190",
+    "weight": 3,
+    "dimensions": {
+      "width": 24.77,
+      "height": 24.66,
+      "depth": 6.09
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships overnight",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Gabriel Adams",
+        "reviewerEmail": "gabriel.adams@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great value for money!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Evan Reed",
+        "reviewerEmail": "evan.reed@x.dummyjson.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Would not buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Clara Berry",
+        "reviewerEmail": "clara.berry@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "7438522857639",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
+  },
+  {
+    "id": 191,
+    "title": "Rolex Cellini Moonphase",
+    "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
+    "category": "womens-watches",
+    "price": 15999.99,
+    "discountPercentage": 4.11,
+    "rating": 3.83,
+    "stock": 52,
+    "tags": ["watches", "luxury watches"],
+    "brand": "Rolex",
+    "sku": "WOM-ROL-ROL-191",
+    "weight": 10,
+    "dimensions": {
+      "width": 12.5,
+      "height": 20.63,
+      "depth": 25.04
+    },
+    "warrantyInformation": "1 month warranty",
+    "shippingInformation": "Ships in 1 week",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Gabriel Hayes",
+        "reviewerEmail": "gabriel.hayes@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Fast shipping!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Logan Torres",
+        "reviewerEmail": "logan.torres@x.dummyjson.com"
+      },
+      {
+        "rating": 1,
+        "comment": "Disappointing product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Isabella Jackson",
+        "reviewerEmail": "isabella.jackson@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "30 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "4608359670564",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
+  },
+  {
+    "id": 192,
+    "title": "Rolex Datejust Women",
+    "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
+    "category": "womens-watches",
+    "price": 10999.99,
+    "discountPercentage": 15.94,
+    "rating": 2.86,
+    "stock": 4,
+    "tags": ["watches", "luxury watches", "women's watches"],
+    "brand": "Rolex",
+    "sku": "WOM-ROL-ROL-192",
+    "weight": 3,
+    "dimensions": {
+      "width": 23.23,
+      "height": 7.19,
+      "depth": 28.95
+    },
+    "warrantyInformation": "5 year warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "Low Stock",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Not as described!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Benjamin Wilson",
+        "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Madison Collins",
+        "reviewerEmail": "madison.collins@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very satisfied!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Lucas Gray",
+        "reviewerEmail": "lucas.gray@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "1265605585958",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
+  },
+  {
+    "id": 193,
+    "title": "Watch Gold for Women",
+    "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+    "category": "womens-watches",
+    "price": 799.99,
+    "discountPercentage": 18.34,
+    "rating": 4.24,
+    "stock": 0,
+    "tags": ["watches", "women's watches"],
+    "brand": "Fashion Gold",
+    "sku": "WOM-FAS-WAT-193",
+    "weight": 1,
+    "dimensions": {
+      "width": 18.85,
+      "height": 28.59,
+      "depth": 7.21
+    },
+    "warrantyInformation": "2 year warranty",
+    "shippingInformation": "Ships in 1-2 business days",
+    "availabilityStatus": "Out of Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Highly impressed!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Elena Baker",
+        "reviewerEmail": "elena.baker@x.dummyjson.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Would buy again!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Avery Barnes",
+        "reviewerEmail": "avery.barnes@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Great product!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Evelyn Sanchez",
+        "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "60 days return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "8333241081413",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
+  },
+  {
+    "id": 194,
+    "title": "Women's Wrist Watch",
+    "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+    "category": "womens-watches",
+    "price": 129.99,
+    "discountPercentage": 12.6,
+    "rating": 3.52,
+    "stock": 12,
+    "tags": ["watches", "women's watches"],
+    "brand": "Fashion Co.",
+    "sku": "WOM-FAS-WOM-194",
+    "weight": 1,
+    "dimensions": {
+      "width": 26.1,
+      "height": 22.03,
+      "depth": 21.61
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 2 weeks",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Very happy with my purchase!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Harper Kelly",
+        "reviewerEmail": "harper.kelly@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Highly recommended!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Gabriel Bailey",
+        "reviewerEmail": "gabriel.bailey@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Fast shipping!",
+        "date": "2025-04-30T09:41:02.054Z",
+        "reviewerName": "Natalie Price",
+        "reviewerEmail": "natalie.price@x.dummyjson.com"
+      }
+    ],
+    "returnPolicy": "No return policy",
+    "minimumOrderQuantity": 5,
+    "meta": {
+      "createdAt": "2025-04-30T09:41:02.054Z",
+      "updatedAt": "2025-04-30T09:41:02.054Z",
+      "barcode": "2093537854573",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "images": [
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
   }
 ]
