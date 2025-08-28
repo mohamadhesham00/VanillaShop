@@ -222,6 +222,6 @@ let storeUserInfo = (userObj) => {
 
 function redirectToHome() {
   if (isAuthenticated()) {
-    window.location.replace("Home.html");
+    window.location.replace("../index.html");
   }
 }

@@ -71,47 +71,6 @@ a.nav-link {
   transform: translateY(-5px); /* Lift effect on hover */
 }
 
-/* .card .img {
-  padding: 10px;
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.card .img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #fff;
-}
-
-.card .card-body {
-  text-align: center;
-  width: 100%;
-}
-
-.card .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 8px;
-}
-
-.card .card-text {
-  font-size: 1rem;
-  color: #333;
-}
-
-.card .btn {
-  width: 100%;
-  padding: 8px;
-  font-size: 0.9rem;
-} */
-
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 12px);

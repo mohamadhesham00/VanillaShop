@@ -3,7 +3,7 @@ import { isAuthenticated } from "./cookies.js";
 import { init } from "./main.js";
 window.onload = async () => {
   if (!isAuthenticated()) {
-    window.location.href = "Home.html";
+    window.location.href = "../index.html";
     return;
   }
   await init();
