@@ -39,15 +39,15 @@ async function loadNewArrivals() {
 
   products.slice(0, 10).forEach((product) => {
     const card = `<div class="card h-100 shadow-sm border-0">
-    <img src="${product.thumbnail}" class="card-img-top img-fluid product-img mt-3" alt="${product.title}" data-id="${product.id}"  />
-    <div class="card-body d-flex flex-column">
-      <h6 class="card-title">${product.title}</h6>
-      <p class="card-text mb-2 fw-bold">$${product.price}</p>
-      <div class="mt-auto">
-        <a href="#" class="btn btn-dark rounded-pill w-100 view-details" data-id="${product.id}">See Details</a>
-      </div>
-    </div>
-  </div>
+                    <img src="${product.thumbnail}" class="card-img-top img-fluid product-img mt-3" alt="${product.title}" data-id="${product.id}"  />
+                    <div class="card-body w-100 d-flex flex-column">
+                      <h6 class="card-title">${product.title}</h6>
+                      <p class="card-text mb-2 fw-bold">$${product.price}</p>
+                      <div class="mt-auto">
+                        <a href="#" class="btn btn-dark rounded-pill w-100 view-details" data-id="${product.id}">See Details</a>
+                      </div>
+                    </div>
+                  </div>
     `;
     carousel.innerHTML += card;
   });
@@ -93,7 +93,7 @@ async function handleCarousel() {
           carousel.scrollLeft -= firstCardWidth;
         }
       }
-    }, 1500);
+    }, 1200);
   };
 
   // Add pause on hover

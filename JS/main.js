@@ -44,7 +44,7 @@ async function init() {
 
       let query = searchInput.value.trim().toLowerCase();
       if (query) {
-        window.location.assign(`products.html?name=${query}`);
+        window.location.assign(`/pages/products.html?name=${query}`);
       }
     };
   } finally {
@@ -71,7 +71,7 @@ function toggleNavBar() {
   } else {
     let loginBtn = document.getElementsByClassName("login-btn")[0];
     loginBtn.addEventListener("click", () =>
-      window.location.assign("auth.html")
+      window.location.assign("/pages/auth.html")
     );
   }
 }
