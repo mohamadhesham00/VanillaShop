@@ -1,7 +1,7 @@
 function addCookie(key, value, expiresInDays = 3) {
   let date = new Date();
   date.setDate(date.getDate() + expiresInDays);
-  document.cookie = `${key}=${value};expires=${date};`;
+  document.cookie = `${key}=${value};expires=${date}; path=/`;
 }
 
 function getCookie(name) {

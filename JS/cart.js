@@ -30,7 +30,11 @@ window.onload = async () => {
     taxElement.textContent = `$${tax.toFixed(2)}`;
     totalElement.textContent = `$${total.toFixed(2)}`;
   };
-
+  const checkoutBtn = document.getElementById("checkout-btn");
+  checkoutBtn.addEventListener("click", () => {
+    localStorage.clear();
+    window.location.href = "/pages/checkout.html";
+  });
   // Function to render the cart items
   const renderCart = () => {
     const cart = getCart();
