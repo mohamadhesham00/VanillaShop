@@ -37,6 +37,7 @@ window.onload = async () => {
     cartItemsContainer.innerHTML = "";
     if (cart.length === 0) {
       emptyCartMessage.style.display = "block";
+      cartItemsContainer.append(emptyCartMessage);
     } else {
       emptyCartMessage.style.display = "none";
       cart.forEach((item) => {
@@ -69,40 +70,43 @@ window.onload = async () => {
         cartItemsContainer.appendChild(cartItem);
       });
     }
-
     updateCartSummary();
-    // hideLoading();
   };
 
+  // Event listener for quantity changes and item removal
   // Event listener for quantity changes and item removal
   cartItemsContainer.addEventListener("click", (event) => {
     const cart = getCart();
     const target = event.target;
 
-    if (target.classList.contains("increase-quantity-btn")) {
-      const id = target.dataset.id;
+    // Use .closest() to find the parent button for all click targets
+    const removeButton = target.closest(".remove-btn");
+    const increaseButton = target.closest(".increase-quantity-btn");
+    const decreaseButton = target.closest(".decrease-quantity-btn");
+
+    if (increaseButton) {
+      const id = Number(increaseButton.dataset.id);
       const item = cart.find((i) => i.id == id);
       if (item) {
         item.quantity++;
         saveCart(cart);
         renderCart();
       }
-    } else if (target.classList.contains("decrease-quantity-btn")) {
-      const id = target.dataset.id;
+    } else if (decreaseButton) {
+      const id = Number(decreaseButton.dataset.id);
       const item = cart.find((i) => i.id == id);
       if (item && item.quantity > 1) {
         item.quantity--;
         saveCart(cart);
         renderCart();
       }
-    } else if (target.classList.contains("remove-btn")) {
-      const id = target.dataset.id;
+    } else if (removeButton) {
+      const id = Number(removeButton.dataset.id);
       const newCart = cart.filter((item) => item.id != id);
       saveCart(newCart);
       renderCart();
     }
   });
-
   // Initial render of the cart
   renderCart();
 };
