@@ -42,7 +42,7 @@ async function init() {
     searchForm.onsubmit = (e) => {
       e.preventDefault();
 
-      let query = searchInput.value.trim();
+      let query = searchInput.value.trim().toLowerCase();
       if (query) {
         window.location.assign(`products.html?name=${query}`);
       }
@@ -104,12 +104,22 @@ scrollTopBtn.addEventListener("click", () => {
 
 async function loadProducts() {
   const response = await fetch("../products.json");
-  const products = await response.json();
-  return products;
+  let products = await response.json();
+  // Shuffle the products
+  return shuffleArray(products);
 }
 function getQueryParam(param) {
   return new URLSearchParams(window.location.search).get(param);
 }
+// Fisher–Yates shuffle
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); // random index
+    [array[i], array[j]] = [array[j], array[i]]; // swap
+  }
+  return array;
+}
+
 function attachEventOnProductCard() {
   const images = document.querySelectorAll(".product-img");
   images.forEach((img) => {
