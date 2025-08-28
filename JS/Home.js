@@ -34,31 +34,25 @@ function animateNumbers() {
   });
 }
 
-function initializeCarousel() {}
-
 async function loadNewArrivals() {
   carousel.innerHTML = ""; // Clear placeholder
 
-  products.forEach((product) => {
-    const card = `
-      <div class="card product-div">
-        <div class="img">
-          <img src="${product.images[0]}" class="card-img-top product-img" alt="${product.title}" data-id="${product.id}" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">${product.title}</h5>
-          <p class="card-text">$${product.price}</p>
-          <a href="#" class="btn btn-primary bg-black rounded-pill view-details" data-id="${product.id}">See Details</a>
-        </div>
+  products.slice(0, 10).forEach((product) => {
+    const card = `<div class="card h-100 shadow-sm border-0">
+    <img src="${product.thumbnail}" class="card-img-top img-fluid product-img mt-3" alt="${product.title}" data-id="${product.id}"  />
+    <div class="card-body d-flex flex-column">
+      <h6 class="card-title">${product.title}</h6>
+      <p class="card-text mb-2 fw-bold">$${product.price}</p>
+      <div class="mt-auto">
+        <a href="#" class="btn btn-dark rounded-pill w-100 view-details" data-id="${product.id}">See Details</a>
       </div>
+    </div>
+  </div>
     `;
     carousel.innerHTML += card;
   });
   // Attach event listeners to new cards
   attachEventOnProductCard();
-
-  // Initialize autoplay after cards are loaded
-  initializeCarousel();
 }
 async function handleCarousel() {
   // Start loading products and initialize carousel
