@@ -1,3 +1,5 @@
+import { addItemToCart } from "./cart.js";
+import { isAuthenticated } from "./cookies.js";
 import {
   init,
   products,
@@ -85,14 +87,26 @@ function loadProducts(filtered = products) {
   productContainer.innerHTML = "";
   filtered.forEach((product) => {
     const card = `
-  <div class="col-6 col-md-4 col-lg-3">
+    <div class="col-6 col-md-4 col-lg-3">
     <div class="card h-100 shadow-sm border-0">
-      <img src="${product.thumbnail}" class="card-img-top img-fluid product-img" alt="${product.title}"  />
+      <img src="${product.thumbnail}"
+           class="card-img-top img-fluid product-img mt-3"
+           alt="${product.title}"
+           data-id="${product.id}" />
       <div class="card-body d-flex flex-column">
         <h6 class="card-title">${product.title}</h6>
         <p class="card-text mb-2 fw-bold">$${product.price}</p>
-        <div class="mt-auto">
-          <a href="#" class="btn btn-dark rounded-pill w-100 view-details" data-id="${product.id}">See Details</a>
+        <div class="mt-auto d-flex flex-column gap-2">
+          <a href="#"
+             class="btn btn-outline-dark rounded-pill w-100 add-to-cart"
+             data-id="${product.id}">
+             <i class="bi bi-cart-plus"></i> Add to Cart
+          </a>
+          <a href="#"
+             class="btn btn-dark rounded-pill w-100 view-details"
+             data-id="${product.id}">
+             See Details
+          </a>
         </div>
       </div>
     </div>
@@ -102,6 +116,20 @@ function loadProducts(filtered = products) {
   });
   // Attach event listeners to new cards
   attachEventOnProductCard();
+  const addToCartButtons = document.querySelectorAll(".add-to-cart");
+  addToCartButtons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+      e.preventDefault();
+      const productId = e.target.dataset.id;
+      const product = products.find((p) => p.id == productId);
+      addItemToCart(product);
+    });
+  });
+  if (!isAuthenticated()) {
+    addToCartButtons.forEach((button) => {
+      button.style.display = "none";
+    });
+  }
 }
 
 function loadProductCategories() {
@@ -122,11 +150,13 @@ function filterByPrice(maxPrice, filtered = products) {
   return filtered.filter((product) => product.price <= maxPrice);
 }
 function filterByName(name, filtered = products) {
-  return filtered.filter((product) => product.title.includes(name));
+  return filtered.filter((product) =>
+    product.title.toLowerCase().includes(name)
+  );
 }
 function applyFiltering() {
   let filtered = products;
-  let query = searchInput.value.trim();
+  let query = searchInput.value.trim().toLowerCase();
   filtered = filterByName(query, filtered);
   const checkedBoxes = document.querySelectorAll(
     'input[name="category"]:checked'
