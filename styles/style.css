@@ -60,6 +60,9 @@ h3 {
 .w-95 {
   width: 95%;
 }
+.bg-transparent {
+  background-color: transparent;
+}
 
 .icons {
   color: black;

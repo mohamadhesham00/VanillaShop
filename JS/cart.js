@@ -42,17 +42,20 @@ window.onload = async () => {
       emptyCartMessage.style.display = "none";
       cart.forEach((item) => {
         const cartItem = document.createElement("div");
-        cartItem.className = "cart-item";
+        cartItem.className = "cart-item mb-3";
         cartItem.innerHTML = `
+          <div class="row">
+          <div class="text-center col-12 col-lg-2">
           <img src="${item.thumbnail}" alt="${
           item.title
         }" class="cart-item-image rounded-3" />
-          <div class="cart-item-details">
+          </div>
+          <div class="col-12 col-lg-5 cart-item-details">
             <h5 class="item-title">${item.title}</h5>
             <p class="body-text">${item.description}</p>
             <p class="item-price">$${item.price.toFixed(2)}</p>
           </div>
-          <div class="quantity-control ms-auto me-3">
+          <div class="d-flex justify-content-center align-items-center col-12 col-lg-3 quantity-control ms-auto me-3">
             <button class="decrease-quantity-btn" data-id="${
               item.id
             }">-</button>
@@ -62,10 +65,13 @@ window.onload = async () => {
             <button class="increase-quantity-btn" data-id="${
               item.id
             }">+</button>
-          </div>
-          <button class="remove-btn" data-id="${item.id}">
-            <i class="bi bi-trash"></i>
-          </button>
+            <button class="bg-transparent text-danger remove-btn" data-id="${
+              item.id
+            }">
+              <i class="bi bi-trash"></i>
+            </button>
+            </div>
+            </div>
         `;
         cartItemsContainer.appendChild(cartItem);
       });
@@ -130,7 +136,14 @@ function addItemToCart(item, quantity = 1) {
   } else {
     cart.push({ ...item, quantity: quantity });
   }
-
   saveCart(cart);
+  Swal.fire({
+    toast: true,
+    position: "top-end",
+    icon: "success",
+    title: item.title + " added to cart",
+    showConfirmButton: false,
+    timer: 2000,
+  });
 }
 export { getCart, saveCart, addItemToCart };
