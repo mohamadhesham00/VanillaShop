@@ -32,7 +32,6 @@ window.onload = async () => {
             </div>
             <h3 class="product-price mb-3">$${product.price}</h3>
             <p class="product-description mb-4">${product.description}</p>
-        
             <!-- Quantity & Add to Cart -->
             <div class="d-flex align-items-center mb-3 gap-3">
                 <label for="quantity" class="form-label mb-0">Quantity:</label>
@@ -105,7 +104,6 @@ window.onload = async () => {
     const addToCartBtn = document.getElementById("addToCartBtn");
 
     if (!isAuthenticated()) {
-      console.log("User not authenticated");
       addToCartBtn.disabled = true;
       addToCartBtn.innerText = "Login to Add to Cart";
     }
